@@ -2,17 +2,27 @@
   "manifest_version": 2,
 
   "name": "Squiggy",
-  "description": "Squiggy das Community-Schweinchen entfernt den Community-Teil von derstandard.at damit man die redaktionellen Beiträge lesen kann ohne versehentlich in den Community-Bereich zu scrollen, was einem regelmässig die Laune verdirbt. Werde ein glückliches Schweinchen, nimm Squiggy.",
-  "version": "1.0",
+  "description": "Squiggy das Community-Schweinchen entfernt den Community-Teil von derstandard.at. Werde ein glückliches Schweinchen, nimm Squiggy.",
+  "version": "1.1",
 
   "author": "Peter Riegersperger, peter@fwends.net",
   "homepage_url": "http://fwends.net",
 
+  "icons": {
+    "16":  "images/icon16.png",
+    "24":  "images/icon24.png",
+    "32":  "images/icon32.png",
+    "48":  "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+
   "browser_action": {
           "default_icon": {
-            "16": "images/icon16.png",
-            "24": "images/icon24.png",
-            "32": "images/icon32.png"
+            "16":  "images/icon16.png",
+            "24":  "images/icon24.png",
+            "32":  "images/icon32.png",
+            "48":  "images/icon48.png",
+            "128": "images/icon128.png"
           },
           "default_title": "Squiggy"
         },
