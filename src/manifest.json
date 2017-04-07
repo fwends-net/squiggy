@@ -3,7 +3,7 @@
 
   "name": "Squiggy",
   "description": "Squiggy das Community-Schweinchen entfernt den Community-Teil von derstandard.at. Werde ein glückliches Schweinchen, nimm Squiggy.",
-  "version": "1.1",
+  "version": "1.2",
 
   "author": "Peter Riegersperger, peter@fwends.net",
   "homepage_url": "http://fwends.net",
@@ -31,7 +31,7 @@
 
   "content_scripts": [
     {
-        "matches": ["http://derstandard.at/*"],
+        "matches": ["https://derstandard.at/*", "http://derstandard.at/*"],
         "css": ["content_style.css"]
     }
   ]
