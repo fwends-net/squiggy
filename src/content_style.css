@@ -1,4 +1,41 @@
+/*
+  This stylesheet tries to very specifically clean all of derstandard.at pages
+  of any trace of a comments section - including all mentions of number
+  of comments anywhere on the site.
+  In order to keep as much as possible intact, it is very verbose in which
+  elements to hide, to avoid as much side effects as possible.
+*/
+
+
+/* Comments section below the article */
 #communityCanvas
 {
   display:none !important;
+}
+/* Display for the number of comments next to the social share buttons */
+.postings
+{
+  display:none !important;
+}
+/* Number of comments that is shown in brackets next the article headline on the right bar */
+#weiterLesen small
+{
+  display: none !important;
+}
+/* Number of comments that is shown below the article headline in the overview screen */
+.text .context .postings
+{
+  display: none !important;
+}
+
+
+/* Number of comments that is shown in brackets next the article headline in the overview screen */
+ul.subs li small
+{
+  display: none !important;
+}
+
+ul.stories li small
+{
+  display: none !important;
 }
